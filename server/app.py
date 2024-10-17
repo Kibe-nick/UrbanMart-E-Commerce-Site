@@ -1,0 +1,6 @@
+from flask import jsonify, make_response, request, session
+
+from config import app, db, api
+
+if __name__ == '__main__':
+    app.run(port=5555, debug=True)
